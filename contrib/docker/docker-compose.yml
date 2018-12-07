@@ -31,6 +31,8 @@ services:
       POSTGRES_PORT: 5432
       REDIS_HOST: redis
       REDIS_PORT: 6379
+      SUPERSET_UPDATE_PERMS: 0
+      FLASK_APP: cli.py
       # If using production, comment development volume below
       #SUPERSET_ENV: production
       SUPERSET_ENV: development
